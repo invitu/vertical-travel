@@ -1,39 +1,35 @@
-# Translation of OpenERP Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* airport
+#	* airport
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenERP Server 7.0\n"
+"Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-02 19:00+0000\n"
-"PO-Revision-Date: 2013-12-02 14:16-0500\n"
-"Last-Translator: Sandy Carter <sandy.carter@savoirfairelinux.com>\n"
+"POT-Creation-Date: 2019-12-06 03:55+0000\n"
+"PO-Revision-Date: 2019-12-06 03:55+0000\n"
+"Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.5.7\n"
-"Language: fr\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
 
 #. module: airport
-#: field:res.partner,iata_code:0
-msgid "IATA Airline code"
-msgstr "Code IATA"
-
-#. module: airport
-#: view:res.partner:0 field:res.partner,airport:0
+#: model:ir.model.fields,field_description:airport.field_res_partner__airport
+#: model:ir.model.fields,field_description:airport.field_res_users__airport
+#: model_terms:ir.ui.view,arch_db:airport.view_partner_airport_form
 msgid "Airport"
-msgstr "Aéroport"
-
-#. module: airport
-#: view:res.partner:0
-msgid "Travel"
-msgstr "Déplacement"
+msgstr ""
 
 #. module: airport
 #: model:ir.model,name:airport.model_res_partner
-msgid "Partner"
-msgstr "Partenaire"
+msgid "Contact"
+msgstr ""
+
+#. module: airport
+#: model:ir.model.fields,field_description:airport.field_res_partner__iata_code
+#: model:ir.model.fields,field_description:airport.field_res_users__iata_code
+msgid "IATA Airline code"
+msgstr "Code IATA"
+
